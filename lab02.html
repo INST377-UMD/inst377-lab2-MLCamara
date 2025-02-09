@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mohamed Camara INST377 Lab 02</title>
+        <style>
+            body {
+                background-color: lightcyan;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            .submit-btn {
+                background-color: brown;
+                color: aliceblue;
+                 margin-top: 25px;
+                 margin-left: 25px;
+                 cursor: pointer;
+            }
+            .submit-btn:hover {
+                background-color: rgb(128, 0, 255);
+            }
+            .contactUs label{
+                font-size: large;
+            }
+            .contactUs{
+                margin: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Contact Us</h1>
+        <form name = 'Contact Form' method = get action = success.html>
+            <div class = 'contactUs'>
+                <label for="Name">Name:</label>
+                <input type="text" id="Name">
+                <br>
+                <label for="Email">Email:</label>
+                <input type="text" id="Email" required>
+                <br>
+                <hr>
+                <button class="submit-btn">Submit</button>
+            </div>
+        </form>
+    </body>
+</html>
